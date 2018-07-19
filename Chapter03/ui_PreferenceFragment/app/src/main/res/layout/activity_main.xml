@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="mainActivity"
+            type="net.buildbox.pokeri.ui_preferencefragment.MainActivity"/>
+    </data>
+
+    <Button
+        android:id="@+id/start_activity_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="@{mainActivity::onButtonClick}"
+        android:text="PrefernceFragmentの呼び出し"/>
+</layout>

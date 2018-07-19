@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item1"
+        android:orderInCategory="100"
+        android:title="アイテム１"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_item2"
+        android:orderInCategory="200"
+        android:title="アイテム２"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_item3"
+        android:enabled="false"
+        android:orderInCategory="300"
+        android:title="アイテム３"
+        app:showAsAction="never"/>
+    <group
+        android:id="@+id/menu_group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_item4"
+            android:checked="true"
+            android:orderInCategory="400"
+            android:title="アイテム４"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/menu_item5"
+            android:orderInCategory="500"
+            android:title="アイテム５"
+            app:showAsAction="never"/>
+    </group>
+</menu>

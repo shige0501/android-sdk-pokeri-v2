@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_load_url"
+        android:orderInCategory="100"
+        android:title="URL読み込み"/>
+
+    <item
+        android:id="@+id/menu_load_asset"
+        android:orderInCategory="200"
+        android:title="Assets読み込み"/>
+
+    <item
+        android:id="@+id/menu_load_data"
+        android:orderInCategory="300"
+        android:title="データ読み込み"/>
+
+    <item
+        android:id="@+id/menu_back"
+        android:orderInCategory="400"
+        android:title="前のページへ"/>
+
+    <item
+        android:id="@+id/menu_forward"
+        android:orderInCategory="500"
+        android:title="次のページへ"/>
+
+    <item
+        android:id="@+id/menu_2back"
+        android:orderInCategory="600"
+        android:title="2ステップ前へ"/>
+</menu>

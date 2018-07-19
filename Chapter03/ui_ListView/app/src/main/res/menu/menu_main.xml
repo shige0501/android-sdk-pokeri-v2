@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_load"
+        android:orderInCategory="100"
+        android:title="リストビューの読み込み"/>
+    <item
+        android:id="@+id/menu_position"
+        android:orderInCategory="200"
+        android:title="最終行に移動"
+        app:showAsAction="never"/>
+</menu>

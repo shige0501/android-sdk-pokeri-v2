@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.buildbox.pokeri.media_tonegenerator.MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:columnCount="3"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/button_1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="1"
+            app:layout_column="0"
+            app:layout_row="0"/>
+
+        <Button
+            android:id="@+id/button_2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="2"
+            app:layout_column="1"
+            app:layout_row="0"/>
+
+        <Button
+            android:id="@+id/button_3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="3"
+            app:layout_column="2"
+            app:layout_row="0"/>
+
+        <Button
+            android:id="@+id/button_4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="4"
+            app:layout_column="0"
+            app:layout_row="1"/>
+
+        <Button
+            android:id="@+id/button_5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="5"
+            app:layout_column="1"
+            app:layout_row="1"
+            />
+
+        <Button
+            android:id="@+id/button_6"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="6"
+            app:layout_column="2"
+            app:layout_row="1"/>
+
+        <Button
+            android:id="@+id/button_7"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="7"
+            app:layout_column="0"
+            app:layout_row="2"/>
+
+        <Button
+            android:id="@+id/button_8"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="8"
+            app:layout_column="1"
+            app:layout_row="2"/>
+
+        <Button
+            android:id="@+id/button_9"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="9"
+            app:layout_column="2"
+            app:layout_row="2"/>
+
+        <Button
+            android:id="@+id/button_a"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="＊"
+            app:layout_column="0"
+            app:layout_row="3"/>
+
+        <Button
+            android:id="@+id/button_0"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="0"
+            app:layout_column="1"
+            app:layout_row="3"/>
+
+        <Button
+            android:id="@+id/button_b"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="#"
+            app:layout_column="2"
+            app:layout_row="3"/>
+
+    </android.support.v7.widget.GridLayout>
+
+</layout>

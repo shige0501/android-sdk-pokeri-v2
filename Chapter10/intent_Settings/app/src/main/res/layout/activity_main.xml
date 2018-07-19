@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.buildbox.pokeri.intent_settings.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callSettings"
+                android:text="設定アプリ呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callAccessibility"
+                android:text="ユーザー補助の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callAccount"
+                android:text="アカウントの追加の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callAirplaneMode"
+                android:text="機内モードの設定の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callApn"
+                android:text="APNの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callApplicationDetail"
+                android:text="アプリの詳細画面の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callApplicationDevelopment"
+                android:text="開発者向けオプションの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callBluetooth"
+                android:text="Bluetoothの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callDataRoaming"
+                android:text="モバイルネットワーク設定の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callDate"
+                android:text="日付と時刻の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callDeviceInfo"
+                android:text="端末の状態の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callDisplay"
+                android:text="ディスプレイの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callInputMethod"
+                android:text="言語と入力の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callStorage"
+                android:text="ストレージの設定の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callLocale"
+                android:text="言語の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callLocation"
+                android:text="位置情報サービスの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callAllApplication"
+                android:text="すべてのアプリ管理画面の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callDownloadApplication"
+                android:text="ダウンロード済みのアプリ管理画面の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callMemoryCard"
+                android:text="SDカードの設定画面の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callNetwork"
+                android:text="利用可能なネットワークの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callNFC"
+                android:text="NFCの設定の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callNFCSharing"
+                android:text="Androidビームの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callPrivacy"
+                android:text="個人データの設定の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callLaunch"
+                android:text="クイック起動の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callSearch"
+                android:text="検索設定の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callSecurity"
+                android:text="セキュリティの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callSound"
+                android:text="音の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callSync"
+                android:text="同期の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callUserDictionary"
+                android:text="ユーザー辞書の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callWifiIP"
+                android:text="IP設定の呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callWifi"
+                android:text="Wi-Fiの呼び出し"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="callWireless"
+                android:text="無線の設定の呼び出し"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scroll_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="1280dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:contentDescription="スクロールイメージ"
+            android:scaleType="fitCenter"
+            android:src="@android:drawable/star_big_on"/>
+    </FrameLayout>
+</ScrollView>

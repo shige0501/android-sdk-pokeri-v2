@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_insert"
+        android:orderInCategory="100"
+        android:title="項目の追加"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="項目の更新"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="項目の削除"
+        app:showAsAction="never"/>
+</menu>
